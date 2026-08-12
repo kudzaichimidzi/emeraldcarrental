@@ -1,0 +1,184 @@
+/* 🔥 YOUR DESIGN UNTOUCHED */
+body {
+  margin:0;
+  padding:0;
+  font-family: Arial;
+  min-height:100vh;
+
+  background: url('../admin/vehicleimages/rolls royce.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+body::before {
+  content:"";
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+
+  background: linear-gradient(
+    rgba(0,0,0,0.85),
+    rgba(0,0,0,0.60),
+    rgba(0,0,0,0.85)
+  );
+
+  z-index:0;
+}
+
+.box {
+  width:100%;
+  max-width :900px;
+  padding:10px;
+  border-radius:14px;
+  background: rgba(0,0,0,0.85);
+  color:white;;
+  border:1px solid white;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  text-align:center;
+  margin-bottom:15px;
+  font-size:25px;
+}
+
+.row.mb-3 {
+   margin-bottom:10px !important; }
+
+label {
+  font-size:12px;
+  color:white;
+  margin-bottom:4px;
+  display:block;
+}
+
+.input-group {
+  display:flex;
+  align-items:center;
+  background: black; /*rgba(255,255,255,0.06);*/
+  border-radius:8px;
+  overflow:hidden;
+  border:1px solid white/* rgba(255,255,255,0.2)*/;
+}
+
+.input-icon {
+  width:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:red;
+}
+
+.input-group input {
+  flex:1;
+  border:1px solid black;
+  outline:none;
+  padding:8px;
+  background:transparent;
+  color:white;
+  font-size:13px;
+}
+
+.input-group input:focus {
+  border:1px solid ;
+  box-shadow: 0 0 10px red;
+  color:white;
+  outline:none;
+}
+
+.btn {
+  width:100%;
+  padding:10px;
+  border:none;
+  border-radius:8px;
+  background: linear-gradient(90deg, red, blue);
+  color:white;
+  font-weight:bold;
+  margin-top:8px;
+  border:1px solid white;
+}
+
+.btn:hover
+{
+    border:1px solid white;
+    background:green;
+}
+
+.floating-icons i {
+    position: absolute;
+    font-size: 80px;
+     color:red;
+     opacity: 0.5;
+     
+    
+    animation: float 7s infinite ease-in-out;
+}
+
+.floating-icons {
+  position: fixed;    
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;        
+  pointer-events: none;
+}
+
+
+
+/* POSITIONS*/
+.floating-icons i:nth-child(1) { top: 10%; left: 10%; }
+.floating-icons i:nth-child(2) { top: 70%; left: 85%; }
+.floating-icons i:nth-child(3) { top: 40%; left: 80%; }
+.floating-icons i:nth-child(4) { top: 80%; left: 15%; }
+.floating-icons i:nth-child(5) { top: 20%; left: 75%; }
+
+/* FLOAT ANIMATION */
+@keyframes float {
+    0% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-25px) rotate(8deg); }
+    100% { transform: translateY(0) rotate(0deg); }
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.form-grid .input-group {
+  width: 100%;
+}
+
+.input-group select {
+  flex:1;
+  border:1px solid black;
+  outline:none;
+  padding:8px;
+  background:black; 
+  color:white;
+  font-size:13px;
+}
+
+.input-group select:focus {
+  border:1px solid red;
+  box-shadow: 0 0 10px red;
+  color:black;
+  background:white; 
+  outline:none;
+
+}
+
+select[name="car"]{
+    width:100%;
+    padding:12px;
+    background:#111;
+    color:white;
+    border:1px solid #555;
+    border-radius:8px;
+}

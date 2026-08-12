@@ -1,0 +1,196 @@
+/*body {
+  background: linear-gradient(-45deg, #0b1220, #0f172a, #111827, #0b1220);
+  background-size: 400% 400%;
+  animation: bgMove 12s ease infinite;
+  color: white;
+  height: 100vh;
+  margin: 0;
+}
+
+@keyframes bgMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}*/
+
+.card{
+    background: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.form-control{
+    background: #111827;
+    border: 1px solid #374151;
+    color: white;
+    border-radius: 10px;
+}
+
+.form-control:focus{
+    border: 1px solid #22d3ee;
+    box-shadow: 0 0 10px rgba(34,211,238,0.5);
+    background: #111827;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: #9ca3af;
+}
+
+.input-group-text {
+    background: #111827;
+    border: 1px solid #374151;
+    color: #9ca3af;
+}
+
+.btn-primary{
+    background: #2563eb;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover{
+    background: #1d4ed8;
+    transform: scale(1.05);
+}
+
+.btn-outline-info{
+    border-radius: 10px;
+}
+
+.eye{
+    position:absolute;
+    right:15px;
+    top:10px;
+    cursor:pointer;
+    color:#9ca3af;
+}
+
+.card h3 {
+  color: white !important;   /* force white title */
+}
+
+#passwordHelp {
+  font-weight: 500;
+}
+
+.card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hover-box {
+  transition: box-shadow 0.3s ease;
+  border-radius: 20px;
+
+}
+
+.hover-box:hover {
+  box-shadow: 0 0 25px red;
+}
+
+.hover-box {
+  
+  backdrop-filter: blur(12px);          /* frosted glass blur */
+  -webkit-backdrop-filter: blur(12px);  /* Safari support */
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.hover-box:hover {
+  box-shadow: 0 0 25px red; /* red glow on hover */
+}
+
+/*body {
+  /* Background source: gradient 
+  background: linear-gradient(-45deg, #0b1220, #0f172a, #111827, #0b1220);
+  background-size: 400% 400%;
+  animation: bgMove 12s ease infinite;
+
+  /* Glass overlay 
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  color: white;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes bgMove {
+  0% { background-position:0% 50%; }
+  50% { background-position:100% 50%; }
+  100% { background-position:0% 50%; }
+}*/
+
+body {
+  background: url('../admin/vehicleimages/forgot password.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  color: white;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+.floating-icons i {
+    position: absolute;
+    font-size: 80px;
+     color:red;
+     opacity: 0.5;
+     
+    
+    animation: float 7s infinite ease-in-out;
+}
+
+.floating-icons {
+  position: fixed;    
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;        
+  pointer-events: none;
+}
+
+
+
+/* POSITIONS*/
+.floating-icons i:nth-child(1) { top: 10%; left: 10%; }
+.floating-icons i:nth-child(2) { top: 70%; left: 85%; }
+.floating-icons i:nth-child(3) { top: 40%; left: 80%; }
+.floating-icons i:nth-child(4) { top: 80%; left: 15%; }
+.floating-icons i:nth-child(5) { top: 20%; left: 75%; }
+
+/* FLOAT ANIMATION */
+@keyframes float {
+    0% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-25px) rotate(8deg); }
+    100% { transform: translateY(0) rotate(0deg); }
+}
+
+
+

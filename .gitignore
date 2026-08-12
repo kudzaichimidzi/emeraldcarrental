@@ -1,0 +1,28 @@
+# Local database configuration
+includes/config.php
+
+# Environment / secret files
+.env
+.env.*
+
+# Temporary files
+temp/
+
+# Uploaded/generated files
+uploads/
+
+# Test files
+test_mail.php
+
+# Windows / macOS files
+Thumbs.db
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# PHP / server temporary files
+*.log
+
+# Generated QR code cache
+phpqrcode/cache/

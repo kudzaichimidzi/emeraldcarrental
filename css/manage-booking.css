@@ -1,0 +1,369 @@
+   
+body{
+    background: linear-gradient(-45deg, #0b1220, #0f172a, #111827, #0b1220);
+    background-size: cover;
+    animation: bgMove 12s ease infinite;
+    background: url('../admin/vehicleimages/gala rides.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: -1;
+}
+
+
+.container {
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+@keyframes bgMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(10px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.card{
+  
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    color: white;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* 🔥 HOVER EFFECT */
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+    border: 1px solid rgba(34,211,238,0.4);
+}
+
+#bookingTable tbody tr{
+    animation: fadeUp 0.4s ease forwards;
+}
+
+#bookingTable tbody tr:hover{
+
+   
+    background: rgba(34,211,238,0.12) !important;
+    transform: scale(1.015);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    transition: 0.2s ease;
+}
+
+.card h3{
+    animation: pop 0.6s ease;
+    color: white;
+}
+
+.header h3{
+    color: white;
+}
+
+@keyframes pop{
+    0%{transform:scale(0.8); opacity:0;}
+    100%{transform:scale(1); opacity:1;}
+}
+
+
+
+
+/* HEADER */
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 15px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    animation: headerGlow 3s infinite alternate;
+
+}
+
+@keyframes headerGlow{
+    from{
+        box-shadow: 0 0 10px  rgba(34,211,238,0.1);
+    }
+    to{
+        box-shadow: 0 0 25px rgba(34,211,238,0.25);;
+    }
+}
+
+
+
+#notifCount{
+    animation: heartbeat 1.2s infinite;
+}
+
+@keyframes heartbeat{
+    0%{transform:scale(1);}
+    25%{transform:scale(1.2);}
+    50%{transform:scale(1);}
+    75%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+}
+
+/* ===== BELL (CODE B) ===== */
+.bell{
+    position:relative;
+    font-size:24px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* 🔥 hover glow */
+.bell:hover{
+    transform: scale(1.1);
+    color:#22d3ee;
+}
+
+.bell span{
+    position:absolute;
+    top:-6px;
+    right:-10px;
+    background: linear-gradient(45deg,#ef4444,#f97316);
+    font-size:11px;
+    padding:3px 7px;
+    border-radius:50%;
+    animation:pulse 1.5s infinite;
+}
+
+/* ===== PULSE (CODE A FEATURE ADDED) ===== */
+.pulse{
+    animation:pulse 1.5s infinite;
+}
+@keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(245,158,11,0.6);}
+    70%{box-shadow:0 0 0 10px rgba(245,158,11,0);}
+    100%{box-shadow:0 0 0 0 rgba(245,158,11,0);}
+}
+
+
+
+/* STATUS 
+.status{
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+}
+.approved{background:#16a34a;}
+.pending{background:#f59e0b;color:black;}
+.rejected{background:#ef4444;}*/
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.approved { background:#16a34a; color:white; box-shadow:0 0 10px rgba(22,163,74,0.7); }
+.pending { background:#facc15; color:black; box-shadow:0 0 10px rgba(250,204,21,0.7); }
+.rejected { background:#ef4444; color:white; box-shadow:0 0 10px rgba(239,68,68,0.7); }
+
+
+/* CAR */
+.car-img{
+    width:50px;
+    height:40px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+/* SEARCH */
+.search-box{
+    background: transparent;
+    border:1px solid green;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    width:300px;
+    transition:0.3s;
+}
+
+.search-box:focus{
+    outline:none;
+    border:1px solid #22d3ee;
+    box-shadow:0 0 15px rgba(34,211,238,0.4);
+}
+
+/* BLINK NEW (CODE A FEATURE) */
+@keyframes blink{
+    50%{opacity:0.3;}
+}
+
+
+/* MODAL */
+.modal-content{
+    background:#111827;
+    color:white;
+}
+
+/* TOAST (FROM BOTH) */
+.toast-box{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    padding:12px 16px;
+    border-radius:10px;
+    background:#16a34a;
+    color:white;
+    z-index:9999;
+}
+
+/* STATS CARDS (FROM A) 
+.card{
+    background:rgba(255,255,255,0.06);
+    border:none;
+    border-radius:15px;
+    color:white;
+}*/
+
+.card {
+  background: rgba(255,255,255,0.08);
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(0,255,128,0.5);
+}
+
+
+.new-booking{
+    animation: blink 1s infinite;
+    background: rgba(34,211,238,0.08) !important;
+    border-left: 4px solid #22d3ee;
+    transition:0.3s;
+}
+
+
+
+.card h3{
+    transition:0.3s;
+}
+
+/* glow numbers */
+.card:hover h3{
+    color:#22d3ee;
+    text-shadow:0 0 10px rgba(34,211,238,0.6);
+}
+
+
+
+.btn {
+    color: black !important;
+     border-radius: 50px;
+  font-weight: 600;
+   transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255,255,255,0.4);
+}
+
+
+
+
+.panel,
+.panel-default,
+.panel-body {
+    background: #0b1220 !important;
+    border: none !important;
+    color: white !important;
+}
+
+.table {
+    background: #0f172a !important;
+    color: black !important;
+    border: none !important;
+}
+
+.table thead {
+    background: #0f172a !important;
+}
+
+
+
+.table td, 
+.table th {
+    background-color: #0f172a !important;
+    color: white !important;
+    border-color: #1f2937 !important;
+}
+
+
+
+.table tbody tr:hover {
+    background: #1a2847 !important;
+    border-left: 4px solid #22d3ee !important;
+    box-shadow: 0 0 15px rgba(34, 211, 238, 0.4) inset, 0 0 10px rgba(34, 211, 238, 0.3) !important;
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}
+
+
+
+
+
+.table tbody tr {
+    background: #0f172a !important;
+    
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.car-img {
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+/* 🔥 hover zoom */
+.car-img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.btn-dashboard {
+  background: linear-gradient(90deg, #006400, #00a86b);
+  color: #fff !important;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 8px 20px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.btn-dashboard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px  rgba(0,168,107,0.6);
+  background: red;
+}

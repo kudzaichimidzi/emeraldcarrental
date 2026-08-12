@@ -1,0 +1,285 @@
+/*body{
+    background: linear-gradient(-45deg, #0b1220, #0f172a, #111827, #0b1220);
+    background-size: 400% 400%;
+    animation: bgMove 12s ease infinite;
+    color: white;
+}
+
+@keyframes bgMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+.card{
+    background: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.form-control{
+    background: #111827;
+    border: 1px solid #374151;
+    color: white;
+    border-radius: 10px;
+}
+
+.form-control:focus{
+    border: 1px solid #22d3ee;
+    box-shadow: 0 0 10px rgba(34,211,238,0.5);
+    background: #111827;
+    color: white;
+}
+
+.btn-primary{
+    background: #2563eb;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover{
+    background: #1d4ed8;
+    transform: scale(1.05);
+}
+
+h3 {
+    color: white;
+}
+
+.form-control::placeholder {
+    color: #9ca3af;
+}
+
+.input-group-text {
+    background: #111827;
+    border: 1px solid #374151;
+    color: #9ca3af;
+}
+
+body {
+  background: linear-gradient(-45deg, #0b1220, #0f172a, #111827, #0b1220);
+  background-size: 400% 400%;
+  animation: bgMove 12s ease infinite;
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes bgMove {
+  0% { background-position:0% 50%; }
+  50% { background-position:100% 50%; }
+  100% { background-position:0% 50%; }
+}
+
+.card {
+  background: rgba(255,255,255,0.15); /* more visible 
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(34,211,238,0.5);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/**/
+
+body {
+background:linear-gradient(-45deg, rgba(11,18,32,0.7), rgba(15,23,42,0.7), rgba(17,24,39,0.7), rgba(11,18,32,0.7)),url('../admin/vehicleimages/danger.jpg') no-repeat center center fixed;
+background-color: rgba(255, 255, 255, 0.05);
+  background-size: cover;
+  animation: bgMove 12s ease infinite;
+  color: black;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(0px);
+  /* Glassmorphism effect 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);*/
+}
+
+.glass-overlay {
+  background: rgba(0,0,0,0.4); /* darker tint */
+}
+
+
+@keyframes bgMove {
+  0% { background-position:0% 50%; }
+  50% { background-position:100% 50%; }
+  100% { background-position:0% 50%; }
+}
+.card {
+  background: rgba(17,24,39,0.8);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  border: 1px solid white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px red;
+
+
+}
+@keyframes fadeInUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+.form-control {
+  background: #111827;
+  border: 1px solid #374151;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.form-control:focus {
+     border: 1px solid red;
+  box-shadow: 0 0 12px red, 0 0 25px rgba(255,0,0,0.6);
+  /*border: 1px solid #22d3ee;
+  box-shadow: 0 0 10px rgba(34,211,238,0.5);*/
+  background: #111827;
+  color: white;
+}
+.form-control::placeholder { 
+    color: #9ca3af;
+ }
+.input-group-text {
+  background: #111827;
+  border: 1px solid #374151;
+  color: #9ca3af;
+}
+
+.form-control:disabled {
+  background: #111827;   /* same as normal */
+  color: #9ca3af;        /* muted text */
+  opacity: 1;            /* prevent greyed-out look */
+}
+
+
+.btn-primary {
+  background:black;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  background:green;
+  transform: scale(1.05);
+}
+h3 { color: white; }
+
+.eye {
+  position:absolute;
+  right:15px;
+  top:10px;
+  cursor:pointer;
+  color:#9ca3af;
+}
+
+#sideAnimation {
+  width: 100%;
+  height: 100%;
+}
+
+.glass-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  z-index: -1; /* keep it behind everything */
+}
+
+#codeBox {
+  text-align: center;
+}
+#codeBox .form-control {
+  max-width: 250px;   /* keeps it compact */
+  margin: 0 auto;     /* centers it */
+}
+
+.code-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.3s;
+}
+
+.shake:active {
+  animation: shake 0.3s;
+}
+
+/* 🔐 LOCK GLOW */
+#lockIcon.active {
+  color: red;
+  text-shadow: 0 0 8px red, 0 0 20px red;
+  transition: 0.3s;
+}
+
+/* 💥 ERROR PULSE */
+@keyframes lockPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); color: red; }
+  100% { transform: scale(1); }
+}
+
+.lock-error {
+  animation: lockPulse 0.4s ease;
+}
+
+#lockIcon {
+   color: #d1d5db;
+  font-size: 16px;
+}
+
+.input-group-text i {
+  color: #9ca3af;
+}

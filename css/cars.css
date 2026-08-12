@@ -1,0 +1,255 @@
+
+/* ================================
+   CAR LISTING PAGE
+================================ */
+
+body{
+    margin: 0;
+    background: #0b1220;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================================
+   MAIN CONTAINER
+================================ */
+
+.container{
+    max-width: 1200px;
+}
+
+
+/* ================================
+   PAGE TITLE
+================================ */
+
+h2{
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 30px !important;
+    color: #ffffff;
+}
+
+
+/* ================================
+   SEARCH / FILTER BOX
+================================ */
+
+.search-box{
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+
+/* Search inputs */
+
+.search-box .form-control{
+    height: 48px;
+    background: #0b1220;
+    border: 1px solid #374151;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+
+.search-box .form-control:focus{
+    background: #0b1220;
+    color: #ffffff;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+}
+
+
+.search-box .form-control::placeholder{
+    color: #9ca3af;
+}
+
+
+/* Select arrow / text */
+
+.search-box select{
+    cursor: pointer;
+}
+
+
+.search-box select option{
+    background: #111827;
+    color: #ffffff;
+}
+
+
+/* ================================
+   CAR CARD
+================================ */
+
+.car-card{
+    height: 100%;
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.20);
+}
+
+
+.car-card:hover{
+    transform: translateY(-8px);
+    border-color: #2563eb;
+    box-shadow: 0 15px 35px rgba(37,99,235,0.18);
+}
+
+
+/* ================================
+   CAR IMAGE
+================================ */
+
+.car-img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+
+.car-card:hover .car-img{
+    transform: scale(1.04);
+}
+
+
+/* ================================
+   CARD CONTENT
+================================ */
+
+.car-card .p-3{
+    padding: 20px !important;
+}
+
+
+.car-card h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+/* ================================
+   PRICE
+================================ */
+
+.price{
+    color: #22c55e;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+
+.price::first-letter{
+    color: #22c55e;
+}
+
+
+/* ================================
+   VEHICLE INFORMATION
+================================ */
+
+.car-card .small{
+    color: #9ca3af !important;
+    border-top: 1px solid #1f2937;
+    border-bottom: 1px solid #1f2937;
+    padding: 14px 0;
+}
+
+
+.car-card .small span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.car-card .small i{
+    color: #3b82f6;
+    font-size: 15px;
+}
+
+
+/* ================================
+   VIEW DETAILS BUTTON
+================================ */
+
+.btn-custom{
+    height: 46px;
+    background: #2563eb;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+
+.btn-custom:hover{
+    background: #1d4ed8;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(37,99,235,0.30);
+}
+
+
+/* ================================
+   NO CARS MESSAGE
+================================ */
+
+.row > p{
+    color: #9ca3af;
+    font-size: 18px;
+    padding: 50px 0;
+}
+
+
+/* ================================
+   RESPONSIVE DESIGN
+================================ */
+
+@media(max-width: 768px){
+
+    h2{
+        font-size: 28px;
+    }
+
+    .search-box{
+        padding: 15px;
+    }
+
+    .car-img{
+        height: 210px;
+    }
+
+}
+
+
+@media(max-width: 576px){
+
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    .car-img{
+        height: 220px;
+    }
+
+}
