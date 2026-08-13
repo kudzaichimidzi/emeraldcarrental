@@ -58,7 +58,6 @@ Administrators can manage vehicles, brands, bookings, customers and other aspect
 
 ## Project Structure
 
-```text
 emeraldcarrental/
 │
 ├── admin/              # Administrator panel
