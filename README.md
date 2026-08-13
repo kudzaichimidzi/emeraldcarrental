@@ -125,47 +125,21 @@ BCA Student | Aspiring AI & Software Developer
 ## Screenshots
 
 ### Homepage
-![Emerald Cars Homepage](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/homepage.png)
+
+![Emerald Car Rental Homepage](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/homepage.png)
 
 ### Rental Cars
+
 ![Rental Cars](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/rental-cars.png)
 
 ### Booking System
+
 ![Booking System](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/booking.png)
 
 ### Customer Testimonials
-![Testimonials](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/testimonials.png)
+
+![Customer Testimonials](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/testimonials.png)
 
 ### Admin Dashboard
-![Admin Dashboard](Screenshots/admin-dashboard.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-License
-
-This project was developed for educational and portfolio purposes.
+![Admin Dashboard](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/admin-dashboard.png)
