@@ -121,6 +121,43 @@ Kudzai Chimidzi
 
 BCA Student | Aspiring AI & Software Developer
 
+
+
+## Screenshots
+
+### Homepage
+![Emerald Cars Homepage](Screenshots/homepage.png)
+
+### Rental Cars
+![Rental Cars](Screenshots/rental-cars.png)
+
+### Booking System
+![Booking System](Screenshots/booking.png)
+
+### Customer Testimonials
+![Testimonials](Screenshots/testimonials.png)
+
+### Admin Dashboard
+![Admin Dashboard](Screenshots/admin-dashboard.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 License
 
 This project was developed for educational and portfolio purposes.
