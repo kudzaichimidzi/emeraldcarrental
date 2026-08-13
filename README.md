@@ -125,19 +125,28 @@ BCA Student | Aspiring AI & Software Developer
 ## Screenshots
 
 ### Homepage
-![Emerald Cars Homepage](Screenshots/homepage.png)
+![Emerald Cars Homepage](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/homepage.png)
 
 ### Rental Cars
-![Rental Cars](Screenshots/rental-cars.png)
+![Rental Cars](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/rental-cars.png)
 
 ### Booking System
-![Booking System](Screenshots/booking.png)
+![Booking System](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/booking.png)
 
 ### Customer Testimonials
-![Testimonials](Screenshots/testimonials.png)
+![Testimonials](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/testimonials.png)
 
 ### Admin Dashboard
 ![Admin Dashboard](Screenshots/admin-dashboard.png)
+
+
+
+
+
+
+
+
+
 
 
 
