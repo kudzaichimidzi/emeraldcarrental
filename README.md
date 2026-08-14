@@ -58,7 +58,6 @@ Administrators can manage vehicles, brands, bookings, customers and other aspect
 
 ## Project Structure
 
-```text
 emeraldcarrental/
 │
 ├── admin/              # Administrator panel
@@ -121,6 +120,26 @@ Kudzai Chimidzi
 
 BCA Student | Aspiring AI & Software Developer
 
-License
 
-This project was developed for educational and portfolio purposes.
+
+## Screenshots
+
+### Homepage
+
+![Emerald Car Rental Homepage](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/homepage.png)
+
+### Rental Cars
+
+![Rental Cars](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/rental-cars.png)
+
+### Booking System
+
+![Booking System](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/booking.png)
+
+### Customer Testimonials
+
+![Customer Testimonials](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/testimonials.png)
+
+### Admin Dashboard
+
+![Admin Dashboard](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/admin-dashboard.png)
