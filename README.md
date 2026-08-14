@@ -216,15 +216,15 @@ Update the database configuration file with your local MySQL credentials.
 
 Open your browser and visit:
 
-
+```text
 http://localhost/emeraldcarrental
+```
 
-
-
+---
 
 # 🔄 Rental Workflow
 
-
+```text
 Customer
    │
    ▼
@@ -250,7 +250,9 @@ Generate Receipt
    │
    ▼
 Email Notification
+```
 
+---
 
 # 🔐 Security
 
@@ -263,7 +265,7 @@ The project includes several security-related features such as:
 * Form validation
 * Access control for administrative pages
 
-
+---
 
 # 📌 Project Status
 
@@ -271,6 +273,7 @@ The project includes several security-related features such as:
 
 The system was developed as a full-stack PHP/MySQL car rental management project.
 
+---
 
 # 👨‍💻 Author
 
@@ -286,6 +289,7 @@ Interested in:
 * Database Systems
 * Full-Stack Development
 
+---
 
 ## ⭐ Support
 
