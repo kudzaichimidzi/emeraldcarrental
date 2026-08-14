@@ -1,145 +1,294 @@
-# Emerald Car Rental
+# 🚗 Emerald Car Rental
 
-A full-stack car rental management system developed using PHP, MySQL, HTML, CSS and JavaScript.
+> A full-stack car rental management system built with **PHP, MySQL, HTML5, CSS3 and JavaScript**.
 
-## About the Project
+Emerald Car Rental is a web-based vehicle rental platform designed to simplify the process of browsing vehicles, checking availability, making bookings and managing rental operations.
 
-Emerald Car Rental is a web-based car rental platform designed to make vehicle rental management easier for both customers and administrators.
+The system includes both a **customer-facing website** and a comprehensive **administrator dashboard** for managing vehicles, brands, bookings, customers, payments and testimonials.
 
-Customers can browse available vehicles, view vehicle details, create accounts, make bookings and manage their rental information.
+---
 
-Administrators can manage vehicles, brands, bookings, customers and other aspects of the rental system through an administrative dashboard.
+## 🌐 Project Overview
 
-## Features
+Emerald Car Rental provides a complete rental workflow for customers and administrators.
 
-### Customer Features
+### 👤 Customers can:
 
-- User registration and login
-- User profile management
-- Browse available vehicles
-- View vehicle details
-- Check vehicle availability
-- Online vehicle booking
-- Booking confirmation
-- Booking history
-- Receipt generation
-- PDF receipt generation
-- Email notifications
-- Customer testimonials
+* Create an account and log in
+* Browse available vehicles
+* View vehicle details
+* Check vehicle availability
+* Make vehicle bookings
+* Receive booking confirmations
+* View booking history
+* Generate rental receipts
+* Receive email notifications
+* View customer testimonials
 
-### Administrator Features
+### 🛠️ Administrators can:
 
-- Admin authentication
-- Admin dashboard
-- Vehicle management
-- Add, edit and delete vehicles
-- Vehicle brand management
-- Booking management
-- Customer management
-- Payment management
-- Subscriber management
-- Testimonials management
-- Reports
-- Booking details
-- Vehicle availability management
+* Securely access the admin dashboard
+* Manage vehicles
+* Add, edit and delete vehicles
+* Manage vehicle brands
+* Manage customer bookings
+* Manage customers
+* Manage payments
+* Manage subscribers
+* Manage testimonials
+* View booking details
+* Monitor vehicle availability
+* Generate reports
 
-## Technologies Used
+---
 
-- PHP
-- MySQL
-- HTML5
-- CSS3
-- JavaScript
-- AJAX
-- PHPMailer
-- FPDF
-- PHP QR Code
-- XAMPP
+# 📸 Screenshots
 
-## Project Structure
+## 🏠 Homepage
 
+![Emerald Car Rental Homepage](Screenshots/homepage.png)
+
+---
+
+## 🚘 Rental Cars
+
+![Rental Cars](Screenshots/rental-cars.png)
+
+---
+
+## 📅 Booking System
+
+![Booking System](Screenshots/booking.png)
+
+---
+
+## 💬 Customer Testimonials
+
+![Customer Testimonials](Screenshots/testimonials.png)
+
+---
+
+## 🛠️ Admin Dashboard
+
+![Admin Dashboard](Screenshots/admin-dashboard.png)
+
+---
+
+# ✨ Key Features
+
+| Feature                  | Description                                 |
+| ------------------------ | ------------------------------------------- |
+| 🔐 Authentication        | Customer and administrator login systems    |
+| 🚗 Vehicle Management    | Add, edit, delete and manage vehicles       |
+| 🏷️ Brand Management     | Manage vehicle brands                       |
+| 📅 Booking System        | Customers can reserve available vehicles    |
+| 🔎 Availability Checking | Check vehicles based on rental dates        |
+| 👤 Customer Management   | Manage registered customers                 |
+| 💳 Payment Management    | Manage rental payment information           |
+| 🧾 Receipt Generation    | Generate rental receipts                    |
+| 📄 PDF Generation        | Generate PDF booking receipts               |
+| 📧 Email Notifications   | Send booking-related email notifications    |
+| 💬 Testimonials          | Customer testimonial management             |
+| 📊 Reports               | Administrative rental and booking reports   |
+| 📱 Responsive Design     | Website designed for different screen sizes |
+
+---
+
+# 💻 Technologies Used
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+* AJAX
+
+### Backend
+
+* PHP
+* MySQL
+
+### Libraries & Tools
+
+* PHPMailer
+* FPDF
+* PHP QR Code
+* XAMPP
+* Apache
+
+---
+
+# 🗂️ Project Structure
+
+```text
 emeraldcarrental/
 │
-├── admin/              # Administrator panel
-├── cars/               # Vehicle images
-├── categories/         # Vehicle categories
-├── css/                # Stylesheets
-├── fpdf/               # PDF generation
-├── home/               # Homepage files
-├── includes/           # Shared PHP files
-├── js/                 # JavaScript files
-├── PHPMailer/          # Email functionality
-├── phpqrcode/          # QR code generation
-├── users/              # Customer functionality
-├── index.php           # Main entry point
-├── login.php           # User login
-├── signup.php          # User registration
-└── contact.php         # Contact page
+├── admin/                  # Administrator panel
+├── cars/                   # Vehicle images
+├── categories/             # Vehicle categories
+├── css/                    # Stylesheets
+├── fpdf/                   # PDF generation
+├── home/                   # Homepage-related files
+├── includes/               # Shared PHP files
+├── js/                     # JavaScript files
+├── PHPMailer/              # Email functionality
+├── phpqrcode/              # QR code generation
+├── users/                  # Customer functionality
+├── Screenshots/            # Project screenshots
+│   ├── homepage.png
+│   ├── rental-cars.png
+│   ├── booking.png
+│   ├── testimonials.png
+│   └── admin-dashboard.png
+│
+├── index.php               # Main entry point
+├── login.php               # User login
+├── signup.php              # User registration
+├── contact.php             # Contact page
+├── forgot-password.php     # Password recovery
+├── reset.php               # Password reset
+├── logout.php              # Logout
+└── README.md               # Project documentation
+```
 
+---
 
-Database
+# 🗄️ Database
 
-The application uses MySQL to store information including:
+The application uses **MySQL** to store and manage important rental information, including:
 
-Users
-Vehicles
-Vehicle brands
-Bookings
-Payments
-Testimonials
-Subscribers
-Installation
-Requirements
-XAMPP
-Apache
-MySQL
-PHP
-Web browser
+* Users
+* Vehicles
+* Vehicle brands
+* Bookings
+* Payments
+* Testimonials
+* Subscribers
 
+The database is connected to the PHP backend using MySQL database queries.
 
-Setup
-Clone or download the repository.
-Place the project inside the XAMPP htdocs directory.
-Start Apache and MySQL from XAMPP.
-Create the required MySQL database.
-Import the project database.
-Configure the database connection.
-Open the application in a browser.
+---
 
+# ⚙️ Installation & Setup
 
-Example:
+## Requirements
+
+Before running the project, install:
+
+* XAMPP
+* Apache
+* MySQL
+* PHP
+* A modern web browser
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/kudzaichimidzi/emeraldcarrental.git
+```
+
+## 2. Move the Project
+
+Place the project inside your XAMPP `htdocs` directory:
+
+```text
+C:\xampp\htdocs\emeraldcarrental
+```
+
+## 3. Start XAMPP
+
+Open XAMPP and start:
+
+* Apache
+* MySQL
+
+## 4. Create the Database
+
+Open **phpMyAdmin** and create the required MySQL database.
+
+Import the project's database SQL file.
+
+## 5. Configure the Database
+
+Update the database configuration file with your local MySQL credentials.
+
+## 6. Open the Website
+
+Open your browser and visit:
+
 
 http://localhost/emeraldcarrental
-Project Status
-
-Completed and available for demonstration.
-
-Author
-
-Kudzai Chimidzi
-
-BCA Student | Aspiring AI & Software Developer
 
 
 
-## Screenshots
 
-### Homepage
+# 🔄 Rental Workflow
 
-![Emerald Car Rental Homepage](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/homepage.png)
 
-### Rental Cars
+Customer
+   │
+   ▼
+Create Account / Login
+   │
+   ▼
+Browse Vehicles
+   │
+   ▼
+Check Availability
+   │
+   ▼
+Select Vehicle
+   │
+   ▼
+Enter Booking Details
+   │
+   ▼
+Confirm Booking
+   │
+   ▼
+Generate Receipt
+   │
+   ▼
+Email Notification
 
-![Rental Cars](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/rental-cars.png)
 
-### Booking System
+# 🔐 Security
 
-![Booking System](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/booking.png)
+The project includes several security-related features such as:
 
-### Customer Testimonials
+* Password hashing
+* Session-based authentication
+* Separate customer and administrator access
+* Database queries using prepared statements
+* Form validation
+* Access control for administrative pages
 
-![Customer Testimonials](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/testimonials.png)
 
-### Admin Dashboard
 
-![Admin Dashboard](https://raw.githubusercontent.com/kudzaichimidzi/emeraldcarrental/master/Screenshots/admin-dashboard.png)
+# 📌 Project Status
+
+**Completed and available for demonstration.**
+
+The system was developed as a full-stack PHP/MySQL car rental management project.
+
+
+# 👨‍💻 Author
+
+## Kudzai Chimidzi
+
+**BCA Student | Aspiring AI & Software Developer**
+
+Interested in:
+
+* Artificial Intelligence
+* Software Development
+* Web Development
+* Database Systems
+* Full-Stack Development
+
+
+## ⭐ Support
+
+If you find this project interesting, consider giving the repository a ⭐ on GitHub.
+
+**Emerald Car Rental — Making vehicle rental management simpler. 🚗💚**
