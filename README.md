@@ -46,31 +46,31 @@ Emerald Car Rental provides a complete rental workflow for customers and adminis
 
 ##  Homepage
 
-![Emerald Car Rental Homepage](Screenshots/homepage.png)
+![Emerald Car Rental Homepage](screenshots/homepage.png)
 
 ---
 
 ##  Rental Cars
 
-![Rental Cars](Screenshots/rental-cars.png)
+![Rental Cars](screenshots/cars.png)
 
 ---
 
 ##  Booking System
 
-![Booking System](Screenshots/booking.png)
+![Booking System](screenshots/booking.png)
 
 ---
 
 ##  Customer Testimonials
 
-![Customer Testimonials](Screenshots/testimonials.png)
+![Customer Testimonials](screenshots/testimonials.png)
 
 ---
 
 ## Admin Dashboard
 
-![Admin Dashboard](Screenshots/admin-dashboard.png)
+![Admin Dashboard](screenshots/dashboard.png)
 
 ---
 
