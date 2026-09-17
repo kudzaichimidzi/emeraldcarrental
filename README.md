@@ -1,4 +1,4 @@
-# 🚗 Emerald Car Rental
+# Emerald Car Rental
 
 > A full-stack car rental management system built with **PHP, MySQL, HTML5, CSS3 and JavaScript**.
 
@@ -8,11 +8,11 @@ The system includes both a **customer-facing website** and a comprehensive **adm
 
 ---
 
-## 🌐 Project Overview
+##  Project Overview
 
 Emerald Car Rental provides a complete rental workflow for customers and administrators.
 
-### 👤 Customers can:
+### Customers can:
 
 * Create an account and log in
 * Browse available vehicles
@@ -25,7 +25,7 @@ Emerald Car Rental provides a complete rental workflow for customers and adminis
 * Receive email notifications
 * View customer testimonials
 
-### 🛠️ Administrators can:
+### Administrators can:
 
 * Securely access the admin dashboard
 * Manage vehicles
@@ -42,33 +42,33 @@ Emerald Car Rental provides a complete rental workflow for customers and adminis
 
 ---
 
-# 📸 Screenshots
+#  Screenshots
 
-## 🏠 Homepage
+##  Homepage
 
 ![Emerald Car Rental Homepage](Screenshots/homepage.png)
 
 ---
 
-## 🚘 Rental Cars
+##  Rental Cars
 
 ![Rental Cars](Screenshots/rental-cars.png)
 
 ---
 
-## 📅 Booking System
+##  Booking System
 
 ![Booking System](Screenshots/booking.png)
 
 ---
 
-## 💬 Customer Testimonials
+##  Customer Testimonials
 
 ![Customer Testimonials](Screenshots/testimonials.png)
 
 ---
 
-## 🛠️ Admin Dashboard
+## Admin Dashboard
 
 ![Admin Dashboard](Screenshots/admin-dashboard.png)
 
@@ -169,7 +169,7 @@ The database is connected to the PHP backend using MySQL database queries.
 
 ---
 
-# ⚙️ Installation & Setup
+#  Installation & Setup
 
 ## Requirements
 
@@ -222,7 +222,7 @@ http://localhost/emeraldcarrental
 
 ---
 
-# 🔄 Rental Workflow
+#  Rental Workflow
 
 ```text
 Customer
