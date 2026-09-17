@@ -46,7 +46,7 @@ Emerald Car Rental provides a complete rental workflow for customers and adminis
 
 ##  Homepage
 
-![Emerald Car Rental Homepage](screenshots/homepage.png)
+![Emerald Car Rental Homepage](screenshots/home.png)
 
 ---
 
